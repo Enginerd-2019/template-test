@@ -3,13 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
+    <title>Light Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+    <!-- Dark Mode Switch  -->
+    <div class="themeSwitchWrapper">
+        <span id="toggleIcon">
+            <span class="toggleText">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="themeSwitch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#bookStay">BOOK STAY</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="titleGroup">
+            <h1>Crumb Family Pet Retreat</h1>
+            <h2>Welcome</h2>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h1>About</h1>
+        <div class="aboutContainer">
+            <div class="imageContainer">
+                <h2>Place Holder</h2>
+                <img src="img/dogWalkingLight.svg" alt="Dog Walking" id="image1">
+            </div>
+            <div class="imageContainer">
+                <h2>Place Holder</h2>
+                <img src="img/fetchLight.svg" alt="Playing Fetch" id="image2">
+            </div>
+            <div class="imageContainer">
+                <h2>Place Holder</h2>
+                <img src="img/goodDogLight.svg" alt="Good Dog" id="image3">
+            </div>
+            <div class="imageContainer">
+                <h2>Place Holder</h2>
+                <img src="img/passingLight.svg" alt="Passing" id="image4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Stay Section-->
+    <section id="bookStay">
+        <h1>Book Stay</h1>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="textBox" id="textBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nulla at excepturi facere ex dolor debitis repudiandae cupiditate voluptate? Ipsam maiores sequi recusandae optio. Officiis provident id quisquam sunt dolore.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="socialIcons">
+            <i class="fa-solid fa-dog"></i>
+            <i class="fa-solid fa-shield-dog"></i>
+            <i class="fa-solid fa-paw"></i>
+            <i class="fa-solid fa-bowl-food"></i>
+            <i class="fa-solid fa-bone"></i>
+        </div>
+    </section>
+
     <!-- Script -->
     <script src="script.js"></script>
 </body>

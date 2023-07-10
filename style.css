@@ -307,3 +307,44 @@ input:checked + .slider::before {
     margin-left: 23px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  section{
+    min-height: 70vh;
+  }
+
+  #nav{
+    font-size: 17px;
+    letter-spacing: 0px;
+    height: 3%;
+  }
+
+  .themeSwitchWrapper{
+    top: 80px;
+    left: 30px;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  .aboutContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageContainer{
+    margin-top: 5px;
+    margin-left: 23px;
+  }
+
+  .buttons{
+    margin-left: 27px;
+  }
+
+  .socialIcons i{
+    font-size: 73px;
+    margin-right: 27px;
+    margin-left: 23px;
+  }
+}

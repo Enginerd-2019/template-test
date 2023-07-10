@@ -267,7 +267,7 @@ input:checked + .slider::before {
   margin-right: 5px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 413px) {
   section{
     min-height: 70vh;
   }
